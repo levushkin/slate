@@ -36,6 +36,8 @@ html, body {
   -webkit-text-size-adjust: none; /* Never autoresize text */
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 ////////////////////////////////////////////////////////////////////////////////
 // TABLE OF CONTENTS
 ////////////////////////////////////////////////////////////////////////////////
@@ -75,7 +77,11 @@ html, body {
   .logo {
     display: block;
     max-width: 100%;
+    margin-left: auto;
     margin-bottom: $logo-margin;
+    margin-right: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
 
   &>.search {
