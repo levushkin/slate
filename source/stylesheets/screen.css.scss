@@ -413,7 +413,8 @@ html, body {
   }
 
   h5, h6 {
-    font-size: 10px;
+    font-size: 13px;
+    font-style: italic;
   }
 
   hr {
@@ -429,6 +430,7 @@ html, body {
       text-align: left;
       vertical-align: top;
       line-height: 1.6;
+      font-size: 12px;
       code {
         white-space: nowrap;
       }

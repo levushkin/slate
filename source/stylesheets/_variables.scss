@@ -35,7 +35,7 @@ $lang-select-bg: #1E2224 !default;
 $lang-select-active-bg: $examples-bg !default; // feel free to change this to blue or something
 $lang-select-pressed-bg: #111 !default; // color of language tab bg when mouse is pressed
 $main-bg: #F4F6F9 !default;
-$aside-notice-bg: #8fbcd4 !default;
+$aside-notice-bg: #286efa38 !default;
 $aside-warning-bg: #c97a7e !default;
 $aside-success-bg: #6ac174 !default;
 $search-notice-bg: #c97a7e !default;
@@ -50,6 +50,7 @@ $nav-active-parent-text: #fff !default; // parent links of the current section
 $lang-select-text: #fff !default; // color of unselected language tab text
 $lang-select-active-text: #fff !default; // color of selected language tab text
 $lang-select-pressed-text: #fff !default; // color of language tab text when mouse is pressed
+$code-text: #ce2e2e;
 
 
 // SIZES
@@ -82,7 +83,9 @@ $phone-width: $tablet-width - $nav-width !default; // min width before reverting
 %code-font {
   font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
   font-size: 12px;
+  font-style: italic;
   line-height: 1.5;
+  color: $code-text;
 }
 
 
