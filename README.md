@@ -1,4 +1,6 @@
-![](/source/images/logo_dark.svg)
+<p align="center">
+  <img src="source/images/logo_dark.svg" width="200" />
+</p>
 
 # MetaShip Documentation
 
